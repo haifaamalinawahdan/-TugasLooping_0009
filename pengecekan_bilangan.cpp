@@ -58,3 +58,8 @@ void hasilPrima()
 
 //Prosedur hasil fibonacci
 void hasilFibonacci()
+{
+    if (Fibonacci(n)){
+        cout << n << "adalah bilangan fibonacci." <<endl;
+    }
+}
