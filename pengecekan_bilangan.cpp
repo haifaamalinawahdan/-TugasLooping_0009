@@ -38,5 +38,9 @@ bool Fibonacci(int n) {
         if (a == n){
             return true;
         }
+        c = a + b;
+        a = b;
+        b = c;
     }
+    return false;
 }
