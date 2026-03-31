@@ -66,3 +66,9 @@ void hasilFibonacci()
         cout << n << "bukan bilangan fibonacci." <<endl;
     }
 }
+
+// Function menu
+void tampilanMenu()
+{
+    
+}
