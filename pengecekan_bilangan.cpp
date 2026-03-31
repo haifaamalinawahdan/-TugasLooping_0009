@@ -49,10 +49,10 @@ bool Fibonacci(int n) {
 void hasilPrima()
 {
     if (Prima(n)) {
-        cout << n << "adalah bilangan prima." << endl;
+        cout << n << " adalah bilangan prima." << endl;
     }
     else {
-        cout << n << "bukan bilangan prima."<<endl;
+        cout << n << " bukan bilangan prima."<<endl;
     }
 }
 
@@ -96,8 +96,11 @@ int main (){
             case 0:
                cout << "Program selesai."<<endl;
                return 0;
+
+            default:
+               cout << "Pilihan tidak valid" <<endl;
         }
     }
 
-
+    return 0;
 }
