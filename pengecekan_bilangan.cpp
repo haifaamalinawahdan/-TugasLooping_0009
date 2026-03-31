@@ -11,3 +11,11 @@ void inputAngka()
     cout<<"Masukkan angka : ";
     cin>>n;
 }
+
+// Fungsi untuk mengecek bilangan prima
+bool Prima(int n)
+{
+    if (n <= 1){
+        return false;
+    }
+}
