@@ -81,6 +81,13 @@ int main (){
     while (true) {
         tampilanMenu();
         cin >> pilihan;
+
+        switch (pilihan){
+            case 1 :
+               inputAngka();
+               hasilPrima();
+               break;
+        }
     }
 
 
