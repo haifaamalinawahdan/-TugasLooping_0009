@@ -29,3 +29,8 @@ bool Prima(int n)
     }
     return true;
 }
+
+// Fungsi untuk mengecek bilangan fibonacci
+bool Fibonacci(int n) {
+    int a = 0, b = 1, c;
+}
