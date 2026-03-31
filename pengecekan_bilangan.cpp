@@ -62,4 +62,7 @@ void hasilFibonacci()
     if (Fibonacci(n)){
         cout << n << "adalah bilangan fibonacci." <<endl;
     }
+    else {
+        cout << n << "bukan bilangan fibonacci." <<endl;
+    }
 }
