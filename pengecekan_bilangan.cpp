@@ -44,3 +44,6 @@ bool Fibonacci(int n) {
     }
     return false;
 }
+
+// Prosedur hasil prima
+void hasilPrima()
