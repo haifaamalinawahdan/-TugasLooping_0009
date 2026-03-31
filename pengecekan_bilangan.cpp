@@ -47,3 +47,8 @@ bool Fibonacci(int n) {
 
 // Prosedur hasil prima
 void hasilPrima()
+{
+    if (Prima(n)) {
+        cout << n << "adalah bilangan prima." << endl;
+    }
+}
